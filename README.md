@@ -32,14 +32,12 @@ cd blog-template
 
 2. Open `index.html` in your browser or use a local development server:
 
-**Using Python:**
 ```bash
+# Using Python 3
 python -m http.server 8000
-```
 
-**Using Node.js (http-server):**
-```bash
-npx http-server src -p 8000
+# Using Node.js (http-server)
+npx http-server
 ```
 
 3. Navigate to `http://localhost:8000`
